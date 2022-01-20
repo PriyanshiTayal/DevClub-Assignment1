@@ -3,10 +3,137 @@ body{
 }
 
 .home{
-    background-color: #4C0027;
     position: absolute;
     width: 1440px;
     height: 1024px;
     left: 0px;
     top: 0px;
+    background-color: #4C0027;
 }
+
+a{
+    height: 28px;
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.h1{
+    position: absolute;
+    width: 1195px;
+    height: 118px;
+    left: 85px;
+    top: 248px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    color: #E8AFCE;
+}
+
+.h2{
+    position: absolute;
+    width: 943px;
+    height: 234px;
+    left: 85px;
+    top: 395px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 117px;
+    color: #FFFFFF;
+}
+
+.home img{
+    position: absolute;
+    left: 965px;
+    top: 567px;
+}
+
+.box{
+    position: absolute;
+    width: 1293px;
+    height: 369px;
+    left: 74px;
+    background: #FFFFFF;
+    border: 1px solid #E8AFCE;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.boxTop{
+    top: 1192px;
+}
+
+.boxDown{
+    top: 1638px;
+}
+
+.symp{
+    position: absolute;
+    width: 1440px;
+    height: 721px;
+    left: 0px;
+    top: 2121px;
+    background: #E8AFCE;
+}
+
+table{
+    position: absolute;
+    width: 951px;
+    height: 454px;
+    left: 244px;
+    top: 161px;
+    background: #FFFFFF;
+    border: 8px solid #750550;
+    box-sizing: border-box;
+}
+
+.FAQ{
+    position: absolute;
+    width: 1293px;
+    height: 754px;
+    left: 74px;
+    top: 3095px;
+    background: #FFFFFF;
+    border: 1px solid #E8AFCE;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.Youtube{
+    position: absolute;
+    width: 759px;
+    height: 444.93px;
+    left: 341px;
+    top: 4017px;
+}
+
+.detail{
+    position: absolute;
+    width: 1440px;
+    height: 219px;
+    left: 0px;
+    top: 4641px;
+    background: #4C0027;
+} 
+
+.detail p{
+    position: absolute;
+    width: 281px;
+    height: 42px;
+    left: 580px;
+    top: 89px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF
+}
+
