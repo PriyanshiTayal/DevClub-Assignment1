@@ -88,7 +88,7 @@ body{
     width: 113px;
     height: 66px;
     left:600px;
-    top: 29px;
+    top: 60px;
     
     font-family: Montserrat, sans-serif;
     font-style: normal;
@@ -110,12 +110,12 @@ body{
 }
 
 .boxTop{
-    top: 168px;
+    top: 190px;
 }
 
 .boxTop h2{
     position: absolute;
-    width: 317px;
+    width: 350px;
     height: 66px;
     left: 800px;
     top: 110px;
@@ -136,12 +136,12 @@ body{
 }
 
 .boxDown{
-    top: 614px;
+    top: 630px;
 }
 
 .boxDown h2{
     position: absolute;
-    width: 346px;
+    width: 370px;
     height: 66px;
     left: 160px;
     top: 110px;  
@@ -175,7 +175,7 @@ body{
     width: 300px;
     height: 66px;
     left: 570px;
-    top: 15px;
+    top: 60px;
     
     font-family: Montserrat, sans-serif;
     font-style: normal;
@@ -191,7 +191,7 @@ table{
     width: 952px;
     height: 454px;
     left: 244px;
-    top: 161px;
+    top: 200px;
     background: #FFFFFF;
     border: 8px solid #750550;
     box-sizing: border-box;
@@ -276,11 +276,12 @@ tr{
     height: 28px;
     text-align: center;
     font-family: Roboto, sans-serif;
+    text-decoration: solid;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
-    color: #000000;    
+    color:#000000;    
 }
 
 .faq1 h4{
@@ -301,13 +302,13 @@ tr{
     height: 105px;
     left:22px;
     text-align: center;
-    font-family: Roboto, sans-serif;
+    font-family: Source serif 4, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
     
-    color: #000000;    
+    color:  #4C0027;    
 }
 
 .faq1 p{
@@ -337,7 +338,7 @@ tr{
     width: 113px;
     height: 66px;
     left:600px;
-    top: 29px;
+    top: 60px;
     font-family: Montserrat, sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -351,7 +352,7 @@ tr{
     width: 759px;
     height: 444.93px;
     left: 341px;
-    top: 168px;
+    top: 190px;
 }
 
 .contact{
@@ -366,9 +367,8 @@ tr{
 .contact p{
     position: absolute;
     height: 42px;
-    left: 580px;
-    top: 89px;
-    font-family: Roboto, sans-serif;
+    left: 510px;
+    top: 60px;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
@@ -377,9 +377,14 @@ tr{
 }
 
 .contact a{
+    font-family: Roboto, sans-serif;
     font-weight: 500;
     line-height: 42px;
     font-size: 36px;
     color: #FFFFFF;
+    text-decoration: none;
 }
 
+a:hover{
+    text-decoration: underline;
+}
