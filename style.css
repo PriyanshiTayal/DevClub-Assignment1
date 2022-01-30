@@ -367,20 +367,25 @@ tr{
 .contact p{
     position: absolute;
     height: 42px;
-    left: 510px;
-    top: 60px;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 36px;
     line-height: 42px;
     color: #FFFFFF
 }
-
+.contact p:first-child{
+    top:30px;
+    left:510px;
+}
+.contact p:last-child{
+    top:90px;
+    left: 430px;
+}
 .contact a{
-    font-family: Roboto, sans-serif;
+    font-family: Source 4 serif, sans-serif;
     font-weight: 500;
-    line-height: 42px;
-    font-size: 36px;
+    line-height: 50px;
+    font-size: 40px;
     color: #FFFFFF;
     text-decoration: none;
 }
